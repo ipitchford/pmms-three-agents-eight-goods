@@ -1,0 +1,183 @@
+{
+ "Golz_2026_main_Table1": {
+  "matrix": [
+   [
+    143,
+    133,
+    137,
+    22,
+    20,
+    21,
+    29,
+    38,
+    2
+   ],
+   [
+    159,
+    140,
+    133,
+    15,
+    8,
+    1,
+    1,
+    35,
+    2
+   ],
+   [
+    135,
+    133,
+    134,
+    13,
+    11,
+    20,
+    28,
+    40,
+    2
+   ]
+  ],
+  "pmms_allocations_of_19683": 0,
+  "first_failure_witness": {
+   "allocation_masks": [
+    511,
+    0,
+    0
+   ],
+   "agent": 1,
+   "opponent": 0,
+   "own_value": 0,
+   "two_way_mms": 221
+  },
+  "pmms_allocations_after_deleting_each_good": [
+   6,
+   6,
+   6,
+   12,
+   13,
+   17,
+   15,
+   18,
+   5
+  ]
+ },
+ "Golz_2026_approx_78_79": {
+  "matrix": [
+   [
+    1,
+    3,
+    4,
+    5,
+    8,
+    14,
+    16,
+    18,
+    23
+   ],
+   [
+    10,
+    2,
+    15,
+    6,
+    8,
+    22,
+    31,
+    30,
+    32
+   ],
+   [
+    14,
+    2,
+    22,
+    13,
+    15,
+    27,
+    42,
+    38,
+    48
+   ]
+  ],
+  "pmms_allocations_of_19683": 0,
+  "first_failure_witness": {
+   "allocation_masks": [
+    511,
+    0,
+    0
+   ],
+   "agent": 1,
+   "opponent": 0,
+   "own_value": 0,
+   "two_way_mms": 78
+  },
+  "pmms_allocations_after_deleting_each_good": [
+   15,
+   7,
+   14,
+   9,
+   12,
+   18,
+   17,
+   13,
+   27
+  ]
+ },
+ "Bei_et_al_2026_Table2": {
+  "matrix": [
+   [
+    80,
+    63,
+    73,
+    77,
+    81,
+    66,
+    72,
+    60,
+    83
+   ],
+   [
+    86,
+    60,
+    74,
+    76,
+    78,
+    75,
+    73,
+    66,
+    80
+   ],
+   [
+    85,
+    60,
+    63,
+    75,
+    80,
+    72,
+    62,
+    61,
+    81
+   ]
+  ],
+  "pmms_allocations_of_19683": 0,
+  "first_failure_witness": {
+   "allocation_masks": [
+    511,
+    0,
+    0
+   ],
+   "agent": 1,
+   "opponent": 0,
+   "own_value": 0,
+   "two_way_mms": 320
+  },
+  "pmms_allocations_after_deleting_each_good": [
+   13,
+   7,
+   11,
+   8,
+   13,
+   8,
+   10,
+   10,
+   13
+  ]
+ },
+ "status": "UPPER_BOUND_NINE_VERIFIED"
+}

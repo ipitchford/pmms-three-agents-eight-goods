@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the exact candidate version and retain its assurance qualifications."
+title: "Pairwise maximin share allocations for three agents exist up to eight goods"
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+date-released: 2026-10-10
+doi: 10.5281/zenodo.23284137
+license: CC0-1.0
+repository-code: https://github.com/ipitchford/pmms-three-agents-eight-goods
+keywords:
+  - fair division
+  - pairwise maximin share
+  - PMMS
+  - SAT
+  - LRAT certificates

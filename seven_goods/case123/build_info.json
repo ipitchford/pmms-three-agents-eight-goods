@@ -1,0 +1,36 @@
+{
+ "m": 7,
+ "case": "123",
+ "blocks": [
+  [
+   0
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   3,
+   4,
+   5
+  ]
+ ],
+ "alloc_clauses": 1806,
+ "lemma_y": 8190,
+ "cardinality_clauses": 0,
+ "pareto_clauses": 539,
+ "amax_clauses": 0,
+ "agents": 3,
+ "vars": 40407,
+ "sign_vars": 2898,
+ "clauses": 1137409,
+ "F_lits": 4116,
+ "y_vars": 8190,
+ "flags": [
+  "noamax",
+  "noefx"
+ ],
+ "build_seconds": 1.2925591468811035,
+ "base_clauses": 1137409,
+ "base_sha256": "02e50818d1563adbe3b73ef146c25110805a73a85dc38b22ae5b575f5451a1c8"
+}

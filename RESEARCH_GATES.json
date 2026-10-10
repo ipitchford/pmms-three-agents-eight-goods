@@ -1,0 +1,197 @@
+{
+ "schemaVersion": "1.0",
+ "recordBoundary": "Record of the literature checks made during production (session tool log, 7-10 October 2026; summary in paper/novelty_report.md), the source readings behind the paper's comparisons, and the limitation triage and extension scout before publication on 10 October 2026. Only checks that were actually run are listed. No absolute priority claim.",
+ "contributionMap": [
+  {
+   "claim": "Every three-agent instance with nonnegative additive valuations and at most eight goods admits a complete PMMS allocation; hence m* = 9",
+   "unit": "statement",
+   "paperLocation": "abstract; Theorem 1; Corollary 2",
+   "searches": [
+    {
+     "date": "2026-10-07",
+     "query": "PMMS allocations three agents eight goods existence minimum number of goods counterexample 2026 (extended web search), plus full-text reading of arXiv:2609.08954, 2609.10493, 2609.06282",
+     "corpus": "web search, arXiv full text"
+    }
+   ],
+   "closestPriorWork": "Goelz arXiv:2609.08954 (nine-good counterexample; remark that he believes nine to be minimal or almost minimal, no theorem); Bei et al. arXiv:2609.10493 Table 2 (second nine-good instance); the seven-good existence note of 6 October 2026 (m* in {8,9}).",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Sign-abstraction SAT encoding of additive valuations with restriction-lemma injection, a Pareto/least-good normal form and least-agent sub-cases, verified by clause re-derivation and LRAT certificates",
+   "unit": "method",
+   "paperLocation": "Section 4; Appendix A",
+   "searches": [
+    {
+     "date": "2026-10-07",
+     "query": "same PMMS/minimum-goods search; seven-good note and memorandum of the input package as direct predecessors",
+     "corpus": "web search, input package"
+    },
+    {
+     "date": "2026-10-10",
+     "query": "Akrami Mayorov Mehlhorn Srinivas Weidenbach arXiv:2604.18216v3: encoding, Lean scope, proof checking",
+     "corpus": "arXiv full text"
+    }
+   ],
+   "closestPriorWork": "Akrami et al. arXiv:2604.18216v3 (SAT for EFX existence/counterexamples with a subset-order encoding, Lean-formalised reduction, DRAT checking); the seven-good note's sign abstraction; LRAT format of Cruz-Filipe et al. 2017.",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Sufficient condition for PMMS with 3q-1 goods: one q-balanced agent and v_c(P) <= v_c(M minus P)/2 for a second agent (equivalently 3 v_c(P) <= v_c(M)), strictly extending the two-balanced-agent cardinality theorem",
+   "unit": "proof",
+   "paperLocation": "Section 3; Proposition 7; Theorem 6",
+   "searches": [
+    {
+     "date": "2026-10-09",
+     "query": "pairwise maximin share three agents 3q-1 top goods bottom goods cut-and-choose sufficient condition PMMS existence",
+     "corpus": "web search"
+    }
+   ],
+   "closestPriorWork": "The cardinality theorem of the 7 October 2026 memorandum (two balanced agents); Amanatidis, Markakis and Ntokos AAAI 2020 for m <= n+2. New as an existence statement only for q >= 4.",
+   "verdict": "partially-known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "P. Goelz, PMMS allocations need not exist for 3 agents with additive valuations, arXiv:2609.08954",
+   "usedFor": "nine-good counterexample (upper bound); his remark on minimality",
+   "readWhat": "abstract and HTML full text: the counterexample tables and every sentence on smaller instances and minimality",
+   "date": "2026-10-07",
+   "evidenceLocator": "https://arxiv.org/abs/2609.08954; instances re-checked in verify_nine_good.py / nine_good_check.json"
+  },
+  {
+   "citation": "X. Bei, Z. Lin, S. Liu, R. Luan, B. Tao, arXiv:2609.10493",
+   "usedFor": "second nine-good goods instance",
+   "readWhat": "abstract and HTML full text: the explicit goods instance (Table 2 / Appendix A.1)",
+   "date": "2026-10-07",
+   "evidenceLocator": "https://arxiv.org/abs/2609.10493 Table 2; re-checked in nine_good_check.json"
+  },
+  {
+   "citation": "H. Aziz, Pairwise maximin share allocations need not exist, arXiv:2609.06282",
+   "usedFor": "four-agent counterexample context; open three-agent case",
+   "readWhat": "abstract and HTML full text: size of the four-agent instance and remarks on three agents",
+   "date": "2026-10-07",
+   "evidenceLocator": "https://arxiv.org/abs/2609.06282"
+  },
+  {
+   "citation": "G. Amanatidis, E. Markakis, A. Ntokos, AAAI 34 (2020) 1790-1797",
+   "usedFor": "existence for m <= n+2 (five goods)",
+   "readWhat": "bibliographic search result for the m <= n+2 statement; the pinpoint Theorem 18 / Corollary 19 was supplied by the external review and adopted without a full re-read",
+   "date": "2026-10-07",
+   "evidenceLocator": "paper Section 1 pinpoint citation"
+  },
+  {
+   "citation": "H. Akrami, A. Mayorov, K. Mehlhorn, S. Srinivas, C. Weidenbach, arXiv:2604.18216v3",
+   "usedFor": "methodological comparison",
+   "readWhat": "abstract and v3 HTML full text: how the three-agent seven-good existence is proved, the valuation encoding, the Lean formalisation scope and DRAT checking",
+   "date": "2026-10-10",
+   "evidenceLocator": "paper Section 1 comparison paragraph"
+  },
+  {
+   "citation": "B. R. Chaudhury, J. Garg, K. Mehlhorn, EFX exists for three agents, J. ACM 71(1) 2024",
+   "usedFor": "stating that EFX existence is not used",
+   "readWhat": "bibliographic search result for the theorem statement; cited only to say the result is not used",
+   "date": "2026-10-07",
+   "evidenceLocator": "paper Section 5 Dependencies paragraph"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "The reduction is argued in the text, not formalised in a proof assistant",
+   "closingQuestion": "Is there an existing formalisation of PMMS or of sign-abstraction encodings to build on?",
+   "triedOrSearched": "No formalisation was attempted or searched for; Akrami et al. (read 10 October) formalise a different reduction (subset order, EFX) in Lean",
+   "estimatedCost": "weeks of formalisation work",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Formalising the reduction is a substantial separate project",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "The clause verifier and Python checker were written by the same producer as the generator",
+   "closingQuestion": "Can a third-party tool cover the same step?",
+   "triedOrSearched": "Every certificate is also accepted by the third-party lrat-check; formula semantics rest on the written schemas and the separate verifier",
+   "estimatedCost": "independent reimplementation by another party",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Independence of authorship cannot be produced by the producer",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "A human-readable proof of Theorem 1 is not known",
+   "closingQuestion": "Does Proposition 7 or a known construction cover all instances?",
+   "triedOrSearched": "Conjecture scout (data/conjecture_scout.json) and structure analysis: three natural strengthenings refuted by explicit instances",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open mathematical question stated in Section 7",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Why the pair template fails on the instance of Observation 3(a)",
+   "closingQuestion": "Is there a covering construction?",
+   "triedOrSearched": "Exhaustive enumeration of the instance's PMMS allocations (28 of 36 have template sizes)",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Open question stated in Section 7",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Four agents: the smallest known counterexample has 52 goods",
+   "closingQuestion": "Does the method extend cheaply?",
+   "triedOrSearched": "Variable count grows with 4^m allocations and sign vectors per agent; not attempted",
+   "estimatedCost": "far beyond 2 hours of compute",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Separate research programme",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Certificates are large (about 33 GB trimmed), so full replay takes about an hour",
+   "closingQuestion": "Can trimming reduce them further?",
+   "triedOrSearched": "All fourteen proofs trimmed (111 GB untrimmed to about 33 GB): thirteen with lrat-trim, one with an external-memory trimmer (tools/lowmem_trim.c) after lrat-trim ran out of memory",
+   "estimatedCost": "done",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Historical priority rests on a bounded search",
+   "closingQuestion": "Would contacting the authors of the nine-good papers close it?",
+   "triedOrSearched": "Literature search 7-9 October 2026 recorded in paper/novelty_report.md",
+   "estimatedCost": "author correspondence",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "External correspondence is outside the publisher's standing scope",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "No independent reproduction",
+   "closingQuestion": "Can an unaffiliated party rerun the replay?",
+   "triedOrSearched": "Replay script needs only Python and a C compiler; assets are public",
+   "estimatedCost": "about an hour of a third party's machine time",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Requires an unaffiliated party",
+   "whyNotClosedNow": ""
+  }
+ ],
+ "extensionScout": {
+  "by": "Claude (Anthropic) during production, with the external review's 'should' items",
+  "date": "2026-10-10",
+  "proposals": [
+   "Prove Conjectures 1 and 2 of the draft (structural route to Theorem 1)",
+   "Strengthen Theorem 6 to one balanced agent",
+   "Trim the certificates to make replay practical",
+   "Sharpen Observations 3(a) and 3(c)",
+   "Remove the EFX dependency from the eight-good proof"
+  ],
+  "actions": [
+   "Scout run: both conjectures refuted by explicit instances (Section 6, data/conjecture_scout.json)",
+   "Done: Proposition 7",
+   "Done: all fourteen certificates trimmed and re-checked",
+   "Done: 28 of 36 and 0 of 58 counts added",
+   "Done: final proof is EFX-free"
+  ]
+ }
+}

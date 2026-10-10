@@ -1,0 +1,21 @@
+{
+ "status": "ALL_CNF_CLAUSES_INDEPENDENTLY_DERIVED",
+ "goods": 6,
+ "case": "plain",
+ "sub": null,
+ "cnf": "rebuild6/base.cnf",
+ "cnf_sha256": "db8756e1486a9e2c3d2cc08778feb21e9bf6ec5006f53aa00bef3b0ccd16bda2",
+ "cnf_clauses": 141035,
+ "cnf_vars": 4683,
+ "expected_counts": {
+  "sign_rules": 388896,
+  "definitions": 16560,
+  "allocation_failures": 540,
+  "restriction_lemmas": 0,
+  "efx": 0,
+  "cardinality": 0,
+  "order": 5
+ },
+ "expected_not_in_cnf": 0,
+ "seconds": 9.1
+}

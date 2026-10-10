@@ -1,0 +1,8 @@
+{
+ "certificate": "six_goods",
+ "source": "run6_nolemmas",
+ "trimmed_steps": 20268,
+ "clauses": 141035,
+ "proof_bytes": 1566262,
+ "seconds": 1
+}

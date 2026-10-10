@@ -1,0 +1,115 @@
+[
+ {
+  "certificate": "six_goods",
+  "source": "run6_nolemmas",
+  "trimmed_steps": 20268,
+  "clauses": 141035,
+  "proof_bytes": 1566262,
+  "seconds": 1
+ },
+ {
+  "certificate": "seven_goods/case114",
+  "source": "rebuild7_lean/case114",
+  "trimmed_steps": 113466,
+  "clauses": 1137360,
+  "proof_bytes": 15181919,
+  "seconds": 8
+ },
+ {
+  "certificate": "seven_goods/case123",
+  "source": "rebuild7_lean/case123",
+  "trimmed_steps": 674184,
+  "clauses": 1137409,
+  "proof_bytes": 112992793,
+  "seconds": 52
+ },
+ {
+  "certificate": "seven_goods/case222",
+  "source": "rebuild7_lean/case222",
+  "trimmed_steps": 431477,
+  "clauses": 1137425,
+  "proof_bytes": 60595719,
+  "seconds": 33
+ },
+ {
+  "certificate": "eight_goods/case115",
+  "source": "run8lean_case115",
+  "trimmed_steps": 1810478,
+  "clauses": 8441557,
+  "proof_bytes": 536912125,
+  "seconds": 338
+ },
+ {
+  "certificate": "eight_goods/case124_sub0",
+  "source": "run8sub_case124_s0",
+  "trimmed_steps": 6522144,
+  "clauses": 8441959,
+  "proof_bytes": 2639782197,
+  "seconds": 1823
+ },
+ {
+  "certificate": "eight_goods/case124_sub1",
+  "source": "run8sub_case124_s1",
+  "trimmed_steps": 3324990,
+  "clauses": 8441959,
+  "proof_bytes": 1099961187,
+  "seconds": 707
+ },
+ {
+  "certificate": "eight_goods/case124_sub2",
+  "source": "run8sub_case124_s2",
+  "trimmed_steps": 4035802,
+  "clauses": 8441959,
+  "proof_bytes": 1367046945,
+  "seconds": 982
+ },
+ {
+  "certificate": "eight_goods/case133_sub0",
+  "source": "run8sub_case133_s0",
+  "trimmed_steps": 9278536,
+  "clauses": 8442088,
+  "proof_bytes": 3861140387,
+  "seconds": 2488
+ },
+ {
+  "certificate": "eight_goods/case133_sub1",
+  "source": "run8sub_case133_s1",
+  "trimmed_steps": 6167188,
+  "clauses": 8442088,
+  "proof_bytes": 2366728300,
+  "seconds": 2105
+ },
+ {
+  "certificate": "eight_goods/case133_sub2",
+  "source": "run8sub_case133_s2",
+  "trimmed_steps": 7055726,
+  "clauses": 8442088,
+  "proof_bytes": 2834607463,
+  "seconds": 2403
+ },
+ {
+  "certificate": "eight_goods/case223_sub0",
+  "source": "run8sub_case223_s0",
+  "trimmed_steps": 15582346,
+  "clauses": 8442154,
+  "proof_bytes": 5241844954,
+  "seconds": 4310
+ },
+ {
+  "certificate": "eight_goods/case223_sub1",
+  "source": "run8sub_case223_s1",
+  "trimmed_steps": 18262676,
+  "clauses": 8442154,
+  "proof_bytes": 6784071557,
+  "seconds": 6242
+ },
+ {
+  "certificate": "eight_goods/case223_sub2",
+  "source": "run8sub_case223_s2",
+  "trimmed_steps": 20476217,
+  "clauses": 8442154,
+  "proof_bytes": 6685603941,
+  "seconds": 2226,
+  "trimmer": "tools/lowmem_trim.c (external memory; lrat-trim exceeded the available memory)"
+ }
+]

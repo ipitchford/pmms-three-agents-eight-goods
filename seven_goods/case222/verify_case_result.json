@@ -1,0 +1,21 @@
+{
+ "status": "ALL_CNF_CLAUSES_INDEPENDENTLY_DERIVED",
+ "goods": 7,
+ "case": "222",
+ "sub": null,
+ "cnf": "rebuild7_lean/case222/base.cnf",
+ "cnf_sha256": "6c7c4d75b439b961f3a5892549a21333c658e5886bce48d851ae82db81ef30bf",
+ "cnf_clauses": 1137425,
+ "cnf_vars": 40407,
+ "expected_counts": {
+  "sign_rules": 2672208,
+  "definitions": 130116,
+  "allocation_failures": 1806,
+  "restriction_lemmas": 27783,
+  "efx": 0,
+  "cardinality": 0,
+  "case": 2147
+ },
+ "expected_not_in_cnf": 1398,
+ "seconds": 23.9
+}

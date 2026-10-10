@@ -1,0 +1,23 @@
+expected clauses generated {'sign_rules': 18367872, 'definitions': 892836, 'allocation_failures': 5796, 'restriction_lemmas': 158418, 'efx': 0, 'cardinality': 3, 'case': 7182, 'subcase_unit': 1} 211s
+{
+ "status": "ALL_CNF_CLAUSES_INDEPENDENTLY_DERIVED",
+ "goods": 8,
+ "case": "223",
+ "sub": 0,
+ "cnf": "run8sub_case223_s0/base.cnf",
+ "cnf_sha256": "0c30c93cf24b4a71b88dbcaf44fc39fe1bf57cad65d773b6bf8824863b91c390",
+ "cnf_clauses": 8442154,
+ "cnf_vars": 252930,
+ "expected_counts": {
+  "sign_rules": 18367872,
+  "definitions": 892836,
+  "allocation_failures": 5796,
+  "restriction_lemmas": 158418,
+  "efx": 0,
+  "cardinality": 3,
+  "case": 7182,
+  "subcase_unit": 1
+ },
+ "expected_not_in_cnf": 0,
+ "seconds": 234.8
+}

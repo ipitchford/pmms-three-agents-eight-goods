@@ -1,0 +1,8 @@
+{
+ "certificate": "seven_goods/case114",
+ "source": "rebuild7_lean/case114",
+ "trimmed_steps": 113466,
+ "clauses": 1137360,
+ "proof_bytes": 15181919,
+ "seconds": 8
+}

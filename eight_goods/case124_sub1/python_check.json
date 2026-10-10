@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "method": "positive-hint LRAT unit propagation",
+  "variables": 252930,
+  "input_clauses": 8441959,
+  "checked_additions": 3324990,
+  "deletion_lines": 2001481,
+  "hint_references": 579881957,
+  "satisfied_hints_skipped": 0,
+  "empty_clause_id": 11766949,
+  "seconds": 399.51071745803347,
+  "cnf_sha256": "61dab634c504974e39ee084f6499b1e2b54ae7ca620d2167bf90b835b4272630",
+  "proof_sha256": "72749c50f58d4edf6161bd8c077ed4059c881614672270deefead69011b73881"
+}

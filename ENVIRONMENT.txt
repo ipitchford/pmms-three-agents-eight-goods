@@ -1,0 +1,12 @@
+Producer environment, 7-10 October 2026
+
+Machine        Apple M2 (Mac mini), 16 GB RAM, macOS (Darwin 27.0.0), shared with other work
+Python         3.14.7 (Homebrew); NumPy 2.4.2 for the generator only
+C compiler     Apple clang 21.0.0
+SAT solver     CaDiCaL 3.0.1 (producer only; not needed for replay)
+lrat-trim      0.2.0, https://github.com/arminbiere/lrat-trim commit b30f400f4ee5c32b77ee566a7c006081b521534f (producer only)
+lrat-check     drat-trim https://github.com/marijnheule/drat-trim commit 2e3b2dc0ecf938addbd779d42877b6ed69d9a985 (source in tools/lrat-check.c)
+
+Replay needs only Python 3 (standard library), a C compiler and gzip. verify_case.py, check_lrat_rup.py,
+verify_nine_good.py, verify_bundle.py and place_proofs.py import nothing outside the standard library.
+Timings in the paper and receipts are measurements on the shared machine above and play no role in the proof.

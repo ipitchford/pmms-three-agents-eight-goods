@@ -1,0 +1,22 @@
+{
+ "status": "ALL_CNF_CLAUSES_INDEPENDENTLY_DERIVED",
+ "goods": 8,
+ "case": "223",
+ "sub": 1,
+ "cnf": "run8sub_case223_s1/base.cnf",
+ "cnf_sha256": "e60c953abe8c81d9ac3ce23fdfe2f08ecab6ac5d0b45dce95b2d35ae8b9ba922",
+ "cnf_clauses": 8442154,
+ "cnf_vars": 252930,
+ "expected_counts": {
+  "sign_rules": 18367872,
+  "definitions": 892836,
+  "allocation_failures": 5796,
+  "restriction_lemmas": 158418,
+  "efx": 0,
+  "cardinality": 3,
+  "case": 7182,
+  "subcase_unit": 1
+ },
+ "expected_not_in_cnf": 0,
+ "seconds": 266.0
+}

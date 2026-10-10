@@ -1,0 +1,71 @@
+07:04:19 trimmed six_goods: 20,268 steps, 0.00 GB, lrat-check VERIFIED, 1s
+07:04:20 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/six_goods: VERIFIED (1s)
+07:04:28 trimmed seven_goods/case114: 113,466 steps, 0.02 GB, lrat-check VERIFIED, 8s
+07:04:34 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/seven_goods/case114: VERIFIED (6s)
+07:05:20 trimmed seven_goods/case123: 674,184 steps, 0.11 GB, lrat-check VERIFIED, 52s
+07:05:54 trimmed seven_goods/case222: 431,477 steps, 0.06 GB, lrat-check VERIFIED, 33s
+07:06:12 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/seven_goods/case123: VERIFIED (52s)
+07:06:20 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/seven_goods/case222: VERIFIED (26s)
+07:11:35 trimmed eight_goods/case115: 1,810,478 steps, 0.54 GB, lrat-check VERIFIED, 338s
+07:15:33 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case115: VERIFIED (238s)
+07:42:03 trimmed eight_goods/case124_sub0: 6,522,144 steps, 2.64 GB, lrat-check VERIFIED, 1823s
+07:53:55 trimmed eight_goods/case124_sub1: 3,324,990 steps, 1.10 GB, lrat-check VERIFIED, 707s
+08:00:11 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case124_sub0: VERIFIED (1088s)
+08:01:05 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case124_sub1: VERIFIED (431s)
+08:10:22 trimmed eight_goods/case124_sub2: 4,035,802 steps, 1.37 GB, lrat-check VERIFIED, 982s
+08:19:01 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case124_sub2: VERIFIED (519s)
+08:51:54 trimmed eight_goods/case133_sub0: 9,278,536 steps, 3.86 GB, lrat-check VERIFIED, 2488s
+09:18:08 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case133_sub0: VERIFIED (1574s)
+09:27:06 trimmed eight_goods/case133_sub1: 6,167,188 steps, 2.37 GB, lrat-check VERIFIED, 2105s
+09:44:16 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case133_sub1: VERIFIED (1030s)
+10:07:17 trimmed eight_goods/case133_sub2: 7,055,726 steps, 2.83 GB, lrat-check VERIFIED, 2403s
+10:26:49 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case133_sub2: VERIFIED (1172s)
+11:19:15 trimmed eight_goods/case223_sub0: 15,582,346 steps, 5.24 GB, lrat-check VERIFIED, 4310s
+11:55:18 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case223_sub0: VERIFIED (2163s)
+13:03:23 trimmed eight_goods/case223_sub1: 18,262,676 steps, 6.78 GB, lrat-check VERIFIED, 6242s
+13:53:52 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case223_sub1: VERIFIED (3029s)
+13:57:44 TRIM FAILED eight_goods/case223_sub2: rc=-9
+13:58:33 skip six_goods (already done)
+13:58:33 skip seven_goods/case114 (already done)
+13:58:33 skip seven_goods/case123 (already done)
+13:58:33 skip seven_goods/case222 (already done)
+13:58:33 skip eight_goods/case115 (already done)
+13:58:33 skip eight_goods/case124_sub0 (already done)
+13:58:33 skip eight_goods/case124_sub1 (already done)
+13:58:33 skip eight_goods/case124_sub2 (already done)
+13:58:33 skip eight_goods/case133_sub0 (already done)
+13:58:33 skip eight_goods/case133_sub1 (already done)
+13:58:33 skip eight_goods/case133_sub2 (already done)
+13:58:34 skip eight_goods/case223_sub0 (already done)
+13:58:34 skip eight_goods/case223_sub1 (already done)
+14:49:59 TRIM FAILED eight_goods/case223_sub2: rc=-9
+15:58:03 skip six_goods (already done)
+15:58:03 skip seven_goods/case114 (already done)
+15:58:03 skip seven_goods/case123 (already done)
+15:58:03 skip seven_goods/case222 (already done)
+15:58:03 skip eight_goods/case115 (already done)
+15:58:03 skip eight_goods/case124_sub0 (already done)
+15:58:03 skip eight_goods/case124_sub1 (already done)
+15:58:04 skip eight_goods/case124_sub2 (already done)
+15:58:04 skip eight_goods/case133_sub0 (already done)
+15:58:04 skip eight_goods/case133_sub1 (already done)
+15:58:04 skip eight_goods/case133_sub2 (already done)
+15:58:04 skip eight_goods/case223_sub0 (already done)
+15:58:04 skip eight_goods/case223_sub1 (already done)
+16:38:01 TRIM FAILED eight_goods/case223_sub2: rc=-9
+17:57:58 skip six_goods (already done)
+17:57:58 skip seven_goods/case114 (already done)
+17:57:58 skip seven_goods/case123 (already done)
+17:57:58 skip seven_goods/case222 (already done)
+17:57:58 skip eight_goods/case115 (already done)
+17:57:58 skip eight_goods/case124_sub0 (already done)
+17:57:58 skip eight_goods/case124_sub1 (already done)
+17:57:58 skip eight_goods/case124_sub2 (already done)
+17:57:58 skip eight_goods/case133_sub0 (already done)
+17:57:58 skip eight_goods/case133_sub1 (already done)
+17:57:58 skip eight_goods/case133_sub2 (already done)
+17:57:58 skip eight_goods/case223_sub0 (already done)
+17:57:58 skip eight_goods/case223_sub1 (already done)
+17:57:58 skip eight_goods/case223_sub2 (already done)
+18:35:45 python check /Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case223_sub2: VERIFIED (2267s)
+18:35:45 ALL CERTIFICATES TRIMMED AND CHECKED

@@ -1,0 +1,19 @@
+c topTable reallocation from 1024 to 1536
+c increasing the number of buckets from 1024 to 1536
+c parsed a formula with 252930 variables and 8442154 clauses
+c topTable reallocation from 1536 to 2304
+c increasing the number of buckets from 1536 to 2304
+c topTable reallocation from 2304 to 3456
+c increasing the number of buckets from 2304 to 3456
+c topTable reallocation from 3456 to 5184
+c increasing the number of buckets from 3456 to 5184
+c topTable reallocation from 5184 to 7776
+c increasing the number of buckets from 5184 to 7776
+c topTable reallocation from 7776 to 11664
+c increasing the number of buckets from 7776 to 11664
+c topTable reallocation from 11664 to 17496
+c WARNING hint already satisfied in lemma with index 95753740
+c VERIFIED
+c allocated 11664 56984539 2529300
+c Added clauses = 28918371.  Deleted clauses = 28075916.  Max live clauses = 8457501
+c verification time = 454.71 secs

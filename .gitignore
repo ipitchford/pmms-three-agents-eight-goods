@@ -1,0 +1,26 @@
+# Large files are release assets (Zenodo record and core archive), not Git history.
+eight_goods/case115/base.cnf
+eight_goods/case115/proof.lrat.gz
+eight_goods/case124_sub0/base.cnf
+eight_goods/case124_sub0/proof.lrat.gz
+eight_goods/case124_sub1/base.cnf
+eight_goods/case124_sub1/proof.lrat.gz
+eight_goods/case124_sub2/base.cnf
+eight_goods/case124_sub2/proof.lrat.gz
+eight_goods/case133_sub0/base.cnf
+eight_goods/case133_sub0/proof.lrat.gz
+eight_goods/case133_sub1/base.cnf
+eight_goods/case133_sub1/proof.lrat.gz
+eight_goods/case133_sub2/base.cnf
+eight_goods/case133_sub2/proof.lrat.gz
+eight_goods/case223_sub0/base.cnf
+eight_goods/case223_sub0/proof.lrat.gz
+eight_goods/case223_sub1/base.cnf
+eight_goods/case223_sub1/proof.lrat.gz
+eight_goods/case223_sub2/base.cnf
+eight_goods/case223_sub2/proof.lrat.gz
+seven_goods/case114/proof.lrat.gz
+seven_goods/case123/proof.lrat.gz
+seven_goods/case222/proof.lrat.gz
+.DS_Store
+__pycache__/

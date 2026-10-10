@@ -1,0 +1,9 @@
+{
+ "certificate": "eight_goods/case223_sub2",
+ "source": "run8sub_case223_s2",
+ "trimmed_steps": 20476217,
+ "clauses": 8442154,
+ "proof_bytes": 6685603941,
+ "seconds": 2226,
+ "trimmer": "tools/lowmem_trim.c (external memory; lrat-trim exceeded the available memory)"
+}

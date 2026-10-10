@@ -1,0 +1,17 @@
+trial 0: dominant 3 case 124 OK
+trial 1: dominant 3 case 115 OK
+trial 2: dominant 3 case 124 OK
+trial 3: dominant 3 case 115 OK
+trial 4: dominant 3 case 115 OK
+trial 5: dominant 3 case 124 OK
+trial 6: dominant 3 case 115 OK
+trial 7: dominant 3 case 115 OK
+trial 8: dominant 3 case 115 OK
+trial 9: dominant 3 case 115 OK
+trial 10: dominant 3 case 115 OK
+trial 11: dominant 3 case 124 OK
+trial 12: dominant 2 case 115 OK
+trial 13: dominant 3 case 115 OK
+trial 14: dominant 3 case 223 OK
+trial 15: dominant 3 case 133 OK
+cases seen {'124': 4, '115': 10, '223': 1, '133': 1}

@@ -1,0 +1,8 @@
+{
+ "certificate": "eight_goods/case115",
+ "source": "run8lean_case115",
+ "trimmed_steps": 1810478,
+ "clauses": 8441557,
+ "proof_bytes": 536912125,
+ "seconds": 338
+}

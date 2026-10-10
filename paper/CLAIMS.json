@@ -1,0 +1,137 @@
+{
+ "date_utc": "2026-10-10",
+ "global_problem": {
+  "statement": "Least number of goods admitting a three-agent nonnegative additive real valuation profile with no complete PMMS allocation.",
+  "status": "RESOLVED",
+  "value": 9
+ },
+ "claims": [
+  {
+   "id": "T1",
+   "status": "VERIFIED_LRAT_AND_CLAUSE_DERIVATION",
+   "statement": "Every three-agent instance with at most eight goods and nonnegative additive valuations admits a complete PMMS allocation. No external theorem is used; The EFX existence theorem is not used.",
+   "evidence": [
+    "eight_goods/case115",
+    "eight_goods/case124_sub0..2",
+    "eight_goods/case133_sub0..2",
+    "eight_goods/case223_sub0..2",
+    "verify_case.py",
+    "tools/lrat-check.c",
+    "check_lrat_rup.py"
+   ],
+   "dependencies": [
+    "T6",
+    "T7",
+    "P7",
+    "L3"
+   ]
+  },
+  {
+   "id": "C2",
+   "status": "ESTABLISHED",
+   "statement": "m* = 9.",
+   "evidence": [
+    "T1",
+    "N9"
+   ]
+  },
+  {
+   "id": "N9",
+   "status": "VERIFIED_EXACT_ENUMERATION",
+   "statement": "Goelz's two nine-good instances and Bei et al.'s Table 2 instance have no PMMS allocation among all 19,683 complete allocations; deleting any one good from any of them leaves at least five PMMS allocations.",
+   "evidence": [
+    "verify_nine_good.py",
+    "nine_good_check.json"
+   ]
+  },
+  {
+   "id": "P7",
+   "status": "HAND_PROOF",
+   "statement": "3q-1 goods: one q-balanced agent a, and a labelling {b,c} with v_c(P) <= v_c(M - P)/2 for P = b's top q-1 goods, imply a PMMS allocation (top-two / balanced cut-and-choose). Contains Theorem 6; strict (explicit instance with one balanced row).",
+   "evidence": [
+    "paper/pmms8.pdf Proposition 7"
+   ]
+  },
+  {
+   "id": "T6",
+   "status": "VERIFIED_LRAT_AND_CLAUSE_DERIVATION",
+   "statement": "Six-good existence: base formula with all 540 nonempty complete allocations and the first agent's goods ordered, no injected theorem; 141,035 clauses; re-derived clause by clause (exact equality); refuted, LRAT accepted by both checkers.",
+   "evidence": [
+    "six_goods/base.cnf",
+    "six_goods/proof.lrat.gz",
+    "six_goods/dictionary.json",
+    "six_goods/verify_case_result.json"
+   ]
+  },
+  {
+   "id": "T7",
+   "status": "VERIFIED_LRAT_AND_CLAUSE_DERIVATION",
+   "statement": "Seven-good existence: cases (1,1,4), (1,2,3), (2,2,2) with 4-6-good restriction lemmas, Pareto maximality, least-good selector, tie-breaks and block orders; each base.cnf independently re-derived clause by clause; each LRAT proof accepted by lrat-check and by the Python checker.",
+   "evidence": [
+    "seven_goods/case114",
+    "seven_goods/case123",
+    "seven_goods/case222"
+   ]
+  },
+  {
+   "id": "T7E",
+   "status": "REPLICATION_NOT_DISTRIBUTED",
+   "statement": "Seven-good existence, variant with the EFX lemma and own-value maximality; same checks. Not used by the proof; its certificates are not part of the published evidence package.",
+   "evidence": []
+  },
+  {
+   "id": "L3",
+   "status": "HAND_PROOF",
+   "statement": "Perturbation lemma: a counterexample on a fixed set of goods yields a positive generic one.",
+   "evidence": [
+    "paper/pmms8.pdf Section 2, genericity lemma"
+   ]
+  },
+  {
+   "id": "A1",
+   "status": "HAND_PROOF",
+   "statement": "Cardinality theorem for 3q-1 goods; for eight goods at least two agents of a counterexample are top-heavy.",
+   "evidence": [
+    "paper/pmms8.pdf Theorem 6 (as a case of Proposition 7)"
+   ]
+  },
+  {
+   "id": "NORM",
+   "status": "HAND_PROOF_PLUS_CONTROL",
+   "statement": "The normalisation of Section 3.5 is valid and its clauses hold for the canonical form of any positive generic matrix; 16 eight-good and 30 seven-good random trials exercised every size profile.",
+   "evidence": [
+    "controls/normalisation_control.py",
+    "controls/normalisation_control8.py",
+    "controls/normalisation_control8.log"
+   ]
+  },
+  {
+   "id": "SEM",
+   "status": "CONTROL",
+   "statement": "Semantic control: for random positive generic matrices at 6, 7 and 8 goods and for the Goelz projection, every non-failure clause holds and the number of violated allocation clauses equals the exact number of PMMS allocations.",
+   "evidence": [
+    "controls/semantic_control.py"
+   ]
+  },
+  {
+   "id": "OBS",
+   "status": "COMPUTATIONAL_OBSERVATIONS_NOT_PROOF",
+   "statement": "Section 6: structure of hard eight-good instances; three natural statements refuted by explicit instances, each re-enumerated by a separate pure-Python implementation.",
+   "evidence": [
+    "data/structure_analysis.json",
+    "data/shape233_test.json",
+    "data/conjecture_scout.json"
+   ]
+  },
+  {
+   "id": "SCOUT",
+   "status": "NEGATIVE_SEARCH_NOT_EVIDENCE",
+   "statement": "Simulated annealing over integer eight-good profiles reached one surviving PMMS allocation at zero slack repeatedly and never zero. Not used by the proof.",
+   "evidence": [
+    "data/scout/"
+   ]
+  }
+ ],
+ "historical_originality": "BOUNDED_SEARCH_ONLY (see paper/novelty_report.md)",
+ "release_boundary": "m* = 9 is supported by the published evidence: ten trimmed eight-good LRAT certificates plus the six- and seven-good certificates, each formula re-derived clause by clause. Historical priority remains bounded by the recorded search."
+}

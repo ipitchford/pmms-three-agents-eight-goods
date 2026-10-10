@@ -1,0 +1,14 @@
+c lowmem_trim (tools/lowmem_trim.c): external-memory trimming; lrat-trim 0.2.0 was killed three times for lack of memory on this proof
+c source /Users/admin/claude-sandbox/pmms8/run8sub_case223_s2/proof.lrat.gz
+empty 99415522 maxid 99415522 additions 90973368 hints 7331119834
+c lowmem_trim (tools/lowmem_trim.c): external-memory trimming; lrat-trim 0.2.0 was killed three times for lack of memory on this proof
+c source /Users/admin/claude-sandbox/pmms8/run8sub_case223_s2/proof.lrat.gz
+c resumed after scan (marking pass rewritten for sequential block reads)
+kept_additions 20476217
+lowmem_trim: deletion line too long
+c lowmem_trim (tools/lowmem_trim.c): external-memory trimming; lrat-trim 0.2.0 was killed three times for lack of memory on this proof
+c source /Users/admin/claude-sandbox/pmms8/run8sub_case223_s2/proof.lrat.gz
+c resumed after scan (marking pass rewritten for sequential block reads)
+c resumed after mark (emit pass given a growable deletion-line buffer)
+emitted_additions 20476217
+c trimmed proof accepted by lrat-check

@@ -1,0 +1,181 @@
+{
+ "started_utc": "2026-10-10T17:44:43Z",
+ "checks": [
+  {
+   "name": "manifest_digests",
+   "passed": true,
+   "detail": {
+    "files": 183,
+    "mismatch": []
+   }
+  },
+  {
+   "name": "nine_good_counterexamples",
+   "passed": true,
+   "detail": " 0 | after deleting each good: [6, 6, 6, 12, 13, 17, 15, 18, 5]\nGolz_2026_approx_78_79 PMMS allocations: 0 | after deleting each good: [15, 7, 14, 9, 12, 18, 17, 13, 27]\nBei_et_al_2026_Table2 PMMS allocations: 0 | after deleting each good: [13, 7, 11, 8, 13, 8, 10, 10, 13]\nUPPER_BOUND_NINE_VERIFIED\n"
+  },
+  {
+   "name": "build_lrat_check",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "six_goods_clauses_derived",
+   "passed": true,
+   "detail": "e9bf6ec5006f53aa00bef3b0ccd16bda2\",\n \"cnf_clauses\": 141035,\n \"cnf_vars\": 4683,\n \"expected_counts\": {\n  \"sign_rules\": 388896,\n  \"definitions\": 16560,\n  \"allocation_failures\": 540,\n  \"restriction_lemmas\": 0,\n  \"efx\": 0,\n  \"cardinality\": 0,\n  \"order\": 5\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 2.1\n}\n"
+  },
+  {
+   "name": "six_goods_lrat_check",
+   "passed": true,
+   "detail": "c parsed a formula with 4683 variables and 141035 clauses\nc VERIFIED\nc allocated 1024 951985 158050\nc Added clauses = 161303.  Deleted clauses = 161302.  Max live clauses = 141035\nc verification time = 0.11 secs\n"
+  },
+  {
+   "name": "seven_goods_case114_clauses_derived",
+   "passed": true,
+   "detail": "0d0b83be7f94260dc4\",\n \"cnf_clauses\": 1137360,\n \"cnf_vars\": 40407,\n \"expected_counts\": {\n  \"sign_rules\": 2672208,\n  \"definitions\": 130116,\n  \"allocation_failures\": 1806,\n  \"restriction_lemmas\": 27783,\n  \"efx\": 0,\n  \"cardinality\": 0,\n  \"case\": 2122\n },\n \"expected_not_in_cnf\": 1330,\n \"seconds\": 16.4\n}\n"
+  },
+  {
+   "name": "seven_goods_case114_lrat_check",
+   "passed": true,
+   "detail": "c parsed a formula with 40407 variables and 1137360 clauses\nc VERIFIED\nc allocated 1024 7677180 1363735\nc Added clauses = 1250826.  Deleted clauses = 1250825.  Max live clauses = 1137360\nc verification time = 1.05 secs\n"
+  },
+  {
+   "name": "seven_goods_case123_clauses_derived",
+   "passed": true,
+   "detail": "22ae5b575f5451a1c8\",\n \"cnf_clauses\": 1137409,\n \"cnf_vars\": 40407,\n \"expected_counts\": {\n  \"sign_rules\": 2672208,\n  \"definitions\": 130116,\n  \"allocation_failures\": 1806,\n  \"restriction_lemmas\": 27783,\n  \"efx\": 0,\n  \"cardinality\": 0,\n  \"case\": 2135\n },\n \"expected_not_in_cnf\": 1378,\n \"seconds\": 16.5\n}\n"
+  },
+  {
+   "name": "seven_goods_case123_lrat_check",
+   "passed": true,
+   "detail": "c parsed a formula with 40407 variables and 1137409 clauses\nc VERIFIED\nc allocated 1024 7677510 1363735\nc Added clauses = 1811593.  Deleted clauses = 1811592.  Max live clauses = 1137409\nc verification time = 6.32 secs\n"
+  },
+  {
+   "name": "seven_goods_case222_clauses_derived",
+   "passed": true,
+   "detail": "d851ae82db81ef30bf\",\n \"cnf_clauses\": 1137425,\n \"cnf_vars\": 40407,\n \"expected_counts\": {\n  \"sign_rules\": 2672208,\n  \"definitions\": 130116,\n  \"allocation_failures\": 1806,\n  \"restriction_lemmas\": 27783,\n  \"efx\": 0,\n  \"cardinality\": 0,\n  \"case\": 2147\n },\n \"expected_not_in_cnf\": 1398,\n \"seconds\": 16.4\n}\n"
+  },
+  {
+   "name": "seven_goods_case222_lrat_check",
+   "passed": true,
+   "detail": "c parsed a formula with 40407 variables and 1137425 clauses\nc VERIFIED\nc allocated 1024 7677618 1363735\nc Added clauses = 1568902.  Deleted clauses = 1568901.  Max live clauses = 1137425\nc verification time = 3.49 secs\n"
+  },
+  {
+   "name": "eight_goods_case115_clauses_derived",
+   "passed": true,
+   "detail": "465eff3c3f8f78098\",\n \"cnf_clauses\": 8441557,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7126\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 123.3\n}\n"
+  },
+  {
+   "name": "eight_goods_case124_sub0_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8441959,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7155,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 123.9\n}\n"
+  },
+  {
+   "name": "eight_goods_case115_lrat_check",
+   "passed": true,
+   "detail": "tion from 1024 to 1536\nc increasing the number of buckets from 1024 to 1536\nc parsed a formula with 252930 variables and 8441557 clauses\nc VERIFIED\nc allocated 1536 56980509 8536387\nc Added clauses = 10252035.  Deleted clauses = 10252034.  Max live clauses = 8441557\nc verification time = 34.09 secs\n"
+  },
+  {
+   "name": "eight_goods_case124_sub1_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8441959,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7155,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 126.1\n}\n"
+  },
+  {
+   "name": "eight_goods_case124_sub0_lrat_check",
+   "passed": true,
+   "detail": "ith 252930 variables and 8441959 clauses\nc topTable reallocation from 1536 to 2304\nc increasing the number of buckets from 1536 to 2304\nc VERIFIED\nc allocated 2304 56983222 8536387\nc Added clauses = 14964103.  Deleted clauses = 14964102.  Max live clauses = 8441959\nc verification time = 153.86 secs\n"
+  },
+  {
+   "name": "eight_goods_case124_sub1_lrat_check",
+   "passed": true,
+   "detail": "tion from 1024 to 1536\nc increasing the number of buckets from 1024 to 1536\nc parsed a formula with 252930 variables and 8441959 clauses\nc VERIFIED\nc allocated 1536 56983222 8536387\nc Added clauses = 11766949.  Deleted clauses = 11766948.  Max live clauses = 8441959\nc verification time = 66.93 secs\n"
+  },
+  {
+   "name": "eight_goods_case124_sub2_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8441959,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7155,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 125.3\n}\n"
+  },
+  {
+   "name": "eight_goods_case133_sub0_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442088,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7164,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 124.5\n}\n"
+  },
+  {
+   "name": "eight_goods_case124_sub2_lrat_check",
+   "passed": true,
+   "detail": "tion from 1024 to 1536\nc increasing the number of buckets from 1024 to 1536\nc parsed a formula with 252930 variables and 8441959 clauses\nc VERIFIED\nc allocated 1536 56983222 8536387\nc Added clauses = 12477761.  Deleted clauses = 12477760.  Max live clauses = 8441959\nc verification time = 82.22 secs\n"
+  },
+  {
+   "name": "eight_goods_case133_sub1_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442088,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7164,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 138.2\n}\n"
+  },
+  {
+   "name": "eight_goods_case133_sub0_lrat_check",
+   "passed": true,
+   "detail": "ith 252930 variables and 8442088 clauses\nc topTable reallocation from 1536 to 2304\nc increasing the number of buckets from 1536 to 2304\nc VERIFIED\nc allocated 2304 56984094 8536387\nc Added clauses = 17720624.  Deleted clauses = 17720623.  Max live clauses = 8442088\nc verification time = 250.75 secs\n"
+  },
+  {
+   "name": "eight_goods_case133_sub1_lrat_check",
+   "passed": true,
+   "detail": "ith 252930 variables and 8442088 clauses\nc topTable reallocation from 1536 to 2304\nc increasing the number of buckets from 1536 to 2304\nc VERIFIED\nc allocated 2304 56984094 8536387\nc Added clauses = 14609276.  Deleted clauses = 14609275.  Max live clauses = 8442088\nc verification time = 158.87 secs\n"
+  },
+  {
+   "name": "eight_goods_case133_sub2_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442088,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7164,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 130.6\n}\n"
+  },
+  {
+   "name": "eight_goods_case223_sub0_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442154,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7182,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 139.4\n}\n"
+  },
+  {
+   "name": "eight_goods_case133_sub2_lrat_check",
+   "passed": true,
+   "detail": "ith 252930 variables and 8442088 clauses\nc topTable reallocation from 1536 to 2304\nc increasing the number of buckets from 1536 to 2304\nc VERIFIED\nc allocated 2304 56984094 8536387\nc Added clauses = 15497814.  Deleted clauses = 15497813.  Max live clauses = 8442088\nc verification time = 179.85 secs\n"
+  },
+  {
+   "name": "eight_goods_case223_sub1_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442154,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7182,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 131.9\n}\n"
+  },
+  {
+   "name": "eight_goods_case223_sub0_lrat_check",
+   "passed": true,
+   "detail": " the number of buckets from 1536 to 2304\nc topTable reallocation from 2304 to 3456\nc increasing the number of buckets from 2304 to 3456\nc VERIFIED\nc allocated 3456 56984539 8536387\nc Added clauses = 24024500.  Deleted clauses = 24024499.  Max live clauses = 8442154\nc verification time = 314.40 secs\n"
+  },
+  {
+   "name": "eight_goods_case223_sub2_clauses_derived",
+   "passed": true,
+   "detail": "\"cnf_clauses\": 8442154,\n \"cnf_vars\": 252930,\n \"expected_counts\": {\n  \"sign_rules\": 18367872,\n  \"definitions\": 892836,\n  \"allocation_failures\": 5796,\n  \"restriction_lemmas\": 158418,\n  \"efx\": 0,\n  \"cardinality\": 3,\n  \"case\": 7182,\n  \"subcase_unit\": 1\n },\n \"expected_not_in_cnf\": 0,\n \"seconds\": 134.4\n}\n"
+  },
+  {
+   "name": "eight_goods_case223_sub1_lrat_check",
+   "passed": true,
+   "detail": " the number of buckets from 1536 to 2304\nc topTable reallocation from 2304 to 3456\nc increasing the number of buckets from 2304 to 3456\nc VERIFIED\nc allocated 3456 56984539 8536387\nc Added clauses = 26704830.  Deleted clauses = 26704829.  Max live clauses = 8442154\nc verification time = 436.98 secs\n"
+  },
+  {
+   "name": "eight_goods_case223_sub2_lrat_check",
+   "passed": true,
+   "detail": "f buckets from 7776 to 11664\nc topTable reallocation from 11664 to 17496\nc WARNING hint already satisfied in lemma with index 95753740\nc VERIFIED\nc allocated 11664 56984539 2529300\nc Added clauses = 28918371.  Deleted clauses = 28075916.  Max live clauses = 8457501\nc verification time = 410.42 secs\n"
+  },
+  {
+   "name": "eight_goods_all_profiles_covered",
+   "passed": true,
+   "detail": [
+    "('115', None)",
+    "('124', 0)",
+    "('124', 1)",
+    "('124', 2)",
+    "('133', 0)",
+    "('133', 1)",
+    "('133', 2)",
+    "('223', 0)",
+    "('223', 1)",
+    "('223', 2)"
+   ]
+  }
+ ],
+ "status": "PASS_ALL_BUNDLE_CHECKS",
+ "finished_utc": "2026-10-10T18:21:20Z"
+}

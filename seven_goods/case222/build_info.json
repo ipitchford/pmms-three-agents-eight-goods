@@ -1,0 +1,38 @@
+{
+ "m": 7,
+ "case": "222",
+ "blocks": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4,
+   5
+  ]
+ ],
+ "alloc_clauses": 1806,
+ "lemma_y": 8190,
+ "cardinality_clauses": 0,
+ "pareto_clauses": 539,
+ "tiebreak_01": "agent 2: v(B0) < v(B1)",
+ "tiebreak_12": "agent 0: v(B1) < v(B2)",
+ "amax_clauses": 0,
+ "agents": 3,
+ "vars": 40407,
+ "sign_vars": 2898,
+ "clauses": 1137425,
+ "F_lits": 4116,
+ "y_vars": 8190,
+ "flags": [
+  "noamax",
+  "noefx"
+ ],
+ "build_seconds": 1.221062183380127,
+ "base_clauses": 1137425,
+ "base_sha256": "6c7c4d75b439b961f3a5892549a21333c658e5886bce48d851ae82db81ef30bf"
+}

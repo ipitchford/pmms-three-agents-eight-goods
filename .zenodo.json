@@ -1,0 +1,20 @@
+{
+  "title": "Pairwise maximin share allocations for three agents exist up to eight goods",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>Unrefereed computer-assisted candidate. Every instance with three agents, nonnegative additive valuations and at most eight indivisible goods has a complete pairwise maximin share (PMMS) allocation; with the published nine-good counterexamples, nine is the least number of goods in a three-agent counterexample. A hypothetical eight-good counterexample is reduced by a written argument to ten propositional formulas, each refuted by a trimmed LRAT certificate; six- and seven-good existence is re-proved in the same framework. Every formula is re-derived clause by clause by a separate verifier, and every certificate is accepted by two LRAT checkers. The paper also proves a sufficient condition for PMMS with 3q-1 goods involving one balanced agent.</p><p>Files: the paper (pmms8.pdf); the core archive (generator, verifier, both checkers, all formulas and dictionaries, six- and seven-good certificates, receipts, replay script, manifest); and the ten eight-good certificates as separate files, those above 600 MB split into consecutive 400 MiB parts (.part00, .part01, ...); place_proofs.py joins them and puts them into the archive's layout after checking their SHA-256 digests.</p><p>Assurance: producer-side replay only. No formalisation in a proof assistant, independent reproduction, specialist review or editorial peer review. Historical priority is asserted only within a recorded literature search of 7-9 October 2026.</p>",
+  "creators": [{"name": "Anonymous"}],
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-10-10",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": ["fair division", "pairwise maximin share", "PMMS", "indivisible goods", "SAT", "LRAT certificates", "computer-assisted proof"],
+  "notes": "Original prose, data and certificates: CC0-1.0. Original code: MIT. Third-party components keep their terms; see LICENSES.md.",
+  "related_identifiers": [
+    {"identifier": "https://github.com/ipitchford/pmms-three-agents-eight-goods", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "arXiv:2609.08954", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2609.10493", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2609.06282", "relation": "references", "scheme": "arxiv"},
+    {"identifier": "arXiv:2604.18216", "relation": "references", "scheme": "arxiv"}
+  ]
+}

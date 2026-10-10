@@ -1,0 +1,24 @@
+c LRAT-TRIM Version 0.2.0 trims LRAT proofs
+c Copyright (c) 2023 Armin Biere University of Freiburg
+c reading CNF and LRAT files and writing LRAT file
+c backward checking trimmed clauses after trimming proof
+c reading CNF from '/Volumes/Mac Archives/PMMS_Eight_Goods_20261010/eight_goods/case133_sub0/base.cnf'
+c found 'p cnf 252930 8442088' header
+c parsed CNF with 8442088 added clauses
+c parsing original CNF took 0.39 seconds and needed 206 MB memory
+c reading proof from '/Volumes/Mac Archives/pmms8_trim_tmp/in.lrat'
+c parsed original proof with 41153376 added and 40417166 deleted clauses
+c parsing original proof took 61.91 seconds and needed 966 MB memory
+c trimmed 8442088 original clauses in CNF to 868845 clauses 10%
+c trimmed 41153376 added clauses in original proof to 9278536 clauses 23%
+c trimming proof took 12.91 seconds
+c backward checking proof took 39.35 seconds
+c writing proof to '/Volumes/Mac Archives/pmms8_trim_tmp/out.lrat'
+c trimmed 37125977143 bytes 34.6 GB to 18921458554 bytes 17.6 GB 51%
+c writing proof took 49.80 seconds
+s VERIFIED
+c checked 9278536 clauses 56452 per second
+c resolved 2029709889 clauses 218.75 per checked clause
+c assigned 2373833257 literals 255.84 per checked clause
+c maximum memory usage of 2555 MB
+c total time of 164.36 seconds
